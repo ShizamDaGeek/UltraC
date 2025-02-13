@@ -1,0 +1,131 @@
+Goal: I want my programming language UltraC to be able to make games, software and interact 
+with hardware.
+
+Syntax: I want my syntax to be ‘C and C++’. I like C++ because they are good at making 
+games, and C allowing you to work more with hardware like a circuit board. C and C++ are fast 
+language for doing anything with.
+
+
+Comments:
+// This is a single line comment
+/*
+	This
+	Is a 
+	Multiline
+	Comment 
+*/
+
+
+Variables:
+int8  smallInt = -128;  // 8-bit signed integer
+uint8 byteVal = 255;   // 8-bit unsigned integer
+int16 midInt = -32768; // 16-bit signed integer
+uint16 colorVal = 65535;  // 16-bit unsigned integer
+int32 normalInt = -2147483648; // 32-bit signed integer
+uint32 largeNum = 4294967295;  // 32-bit unsigned integer
+int64 bigNum = -9223372036854775808; // 64-bit signed integer
+uint64 hugeNum = 18446744073709551615; // 64-bit unsigned integer
+
+int Name = 16;
+posInt price1 = 16;
+negInt price2 = -16;
+
+float chance = 6.9;
+posFloat stock1 = 6.9;
+negFloat stock2 = -6.9;
+
+bool isRaining = true/false;
+string name = “ShizamDa_Geek”;
+string bio = """This is a Multiline string""";
+char letter = "S";
+type posInt Money;
+Money price = 100;
+
+
+User Input:
+string input = “”;
+SysOutput < “Hello what is your name: ”;
+SysInput < input;
+SysOutput < “Hello ” + input + "Welcome to UltraC";
+
+
+Operators:
+<  = Less than
+>  = More than
+<= = Less than or equal to
+>= = More than or equal to
+== = Equal to
+!= = Not equal to
+
+
+Maths:
+SysOutput < randInt(1, 100);
+SysOutput < randFloat(1, 100);
+SysOutput < sqrt(64);
+SysOutput < round(2.6324324321);
+SysOutput < PI;
+
+
+If statements and Switches:
+if (5 > 4) {SysOutput < “5 is more than 4”;}
+else if (4 < 5) {SysOutput < “4 can not be more than 5”;}
+else {SysOutput < “bye”;}
+
+switch (input)
+{
+    case "yes": SysOutput < "Confirmed"; break;
+    case "no": SysOutput < "Canceled"; break;
+    default: SysOutput < "Invalid";
+}
+
+
+While Loop:
+bool operator = true;
+While(operator)
+{
+	SysOutput < “Hi”;
+}
+
+
+Functions:
+void functionName() {SysOutput < “Hello World”;}
+functionName();
+
+
+For Loop:
+for(i in 3) {SysOutput < “I hate Maths but love stats”;}
+
+
+Lists&Dictionaries:
+List<int> numbers = [1, 2, 3, 4, 5];
+SysOutput < numbers[0];
+
+Dict<string, int> ages = {"Alice": 25, "Bob": 30};
+SysOutput < ages["Alice"]; // Output: 25
+
+
+Crazy Cool Features:
+SysOutput < “Hello World”;?
+? = Prints explanation of what this line does
+
+SysOutput < “Hello World”;!
+! - stop code after this point
+
+SysOutput < “Hello World”;+(69)
++ = prints the line again
++(69) = specify how many times it will print
+
+SysOutput < “Hello World”;goto 5
+goto 5 = will take you to line 5 after this print statement
+
+SysOutput < “Hello World”;wait(69)
+wait(69) = will wait 69 seconds until it resumes the code after
+
+Break/Continue:
+Break;
+Continue;
+Ignore;
+
+Pointers:
+string food = "Pizza";
+SysOutput < &food;
