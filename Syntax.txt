@@ -46,7 +46,7 @@ User Input:
 string input = “”;
 SysOutput < “Hello what is your name: ”;
 SysInput < input;
-SysOutput < “Hello ” + input + "Welcome to UltraC";
+SysOutput < “Hello ” < input < "Welcome to UltraC";
 
 
 Operators:
@@ -115,17 +115,26 @@ SysOutput < “Hello World”;+(69)
 + = prints the line again
 +(69) = specify how many times it will print
 
-SysOutput < “Hello World”;goto 5
+SysOutput < “Hello World”;goto(5)
 goto 5 = will take you to line 5 after this print statement
 
 SysOutput < “Hello World”;wait(69)
 wait(69) = will wait 69 seconds until it resumes the code after
+
 
 Break/Continue:
 Break;
 Continue;
 Ignore;
 
+
 Pointers:
 string food = "Pizza";
 SysOutput < &food;
+
+
+Steps:
+-Define the language ✅
+-Lexer(Tokenizer) 
+-Parser(AST – Abstract Syntax Tree)
+-Compiler

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Shiza/Documents/ALL CODE HERE/Programming_language_S++",
-      "program": "c:/Users/Shiza/Documents/ALL CODE HERE/Programming_language_S++/build/Debug/outDebug",
+      "cwd": "c:/Users/Shiza/Documents/ALL CODE HERE/Programming_language_UltraC",
+      "program": "c:/Users/Shiza/Documents/ALL CODE HERE/Programming_language_UltraC/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
