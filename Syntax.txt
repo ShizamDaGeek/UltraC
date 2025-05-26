@@ -1,13 +1,14 @@
 Goal: I want my programming language UltraC to be able to make games, software and interact 
 with hardware.
 
-Syntax: I want my syntax to be ‘C and C++’. I like C++ because they are good at making 
-games, and C allowing you to work more with hardware like a circuit board. C and C++ are fast 
-language for doing anything with.
+Syntax: I want my syntax to be ‘C and C++’. I like C++ because it's good at making 
+games and fast software, and C allows you to work more with hardware like a circuit boards, 
+raspberry pi, arduino and such. C and C++ are fast language for doing anything with them
 
 
 Comments:
 // This is a single line comment
+
 /*
 	This
 	Is a 
