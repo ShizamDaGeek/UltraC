@@ -18,7 +18,7 @@ Comments:
 
 
 Variables:
-int8  smallInt = -128;  // 8-bit signed integer
+int8 smallInt = -128;  // 8-bit signed integer
 uint8 byteVal = 255;   // 8-bit unsigned integer
 int16 midInt = -32768; // 16-bit signed integer
 uint16 colorVal = 65535;  // 16-bit unsigned integer
@@ -27,27 +27,27 @@ uint32 largeNum = 4294967295;  // 32-bit unsigned integer
 int64 bigNum = -9223372036854775808; // 64-bit signed integer
 uint64 hugeNum = 18446744073709551615; // 64-bit unsigned integer
 
-int Name = 16;
-posInt price1 = 16;
-negInt price2 = -16;
+int8 Name = 16;
+int8 price1 = 16;
+int8 price2 = -16;
 
 float chance = 6.9;
-posFloat stock1 = 6.9;
-negFloat stock2 = -6.9;
+float stock1 = 6.9;
+double stock2 = -6.9;
 
 bool isRaining = true/false;
-string name = “ShizamDa_Geek”;
+string name = "ShizamDa_Geek";
 string bio = """This is a Multiline string""";
 char letter = "S";
-type posInt Money;
+type int8 Money;
 Money price = 100;
 
 
 User Input:
-string input = “”;
-SysOutput < “Hello what is your name: ”;
+string input = "";
+SysOutput < "Hello what is your name: ";
 SysInput < input;
-SysOutput < “Hello ” < input < "Welcome to UltraC";
+SysOutput < "Hello " < input < " Welcome to UltraC";
 
 
 Operators:
@@ -116,17 +116,17 @@ SysOutput < “Hello World”;+(69)
 + = prints the line again
 +(69) = specify how many times it will print
 
-SysOutput < “Hello World”;goto(5)
+SysOutput < “Hello World”;->(5)
 goto 5 = will take you to line 5 after this print statement
 
-SysOutput < “Hello World”;wait(69)
+SysOutput < “Hello World”;.(69)
 wait(69) = will wait 69 seconds until it resumes the code after
 
 
 Break/Continue:
 Break;
 Continue;
-Ignore;
+Null;
 
 
 Pointers:
