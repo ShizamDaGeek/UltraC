@@ -7,3 +7,5 @@
 // HEADERS | .H FILES
 #include "lexer.h"
 #include "token.h"
+#include "AST.h"
+#include "parser.h"

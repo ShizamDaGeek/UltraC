@@ -5,10 +5,10 @@ int main(int argc, char** argv[])
     lexer_T* lexer = init_lexer(
     "int main()\n"
     "{\n"
-        "string name = Shivam;\n"
+        "string name = \"Shivam\";\n"
         "SysOutput < \"You number is: \" < name;\n"
 
-        "return 0;}\n"
+        "return 0;\n"
     "}\n"
     );
 

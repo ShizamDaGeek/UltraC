@@ -15,7 +15,8 @@ typedef struct TOKEN_STRUCT
         TOKEN_EQUALS,
         TOKEN_SEMICOLON,
         TOKEN_STRING,
-        TOKEN_NUMBER,
+        TOKEN_MORETHAN,
+        TOKEN_LESSTHAN,
         TOKEN_RIGHTCURBRACE
     }type;
 
